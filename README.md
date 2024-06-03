@@ -30,7 +30,7 @@ mimic page faults
   - change PTE to read-only
   - PTE (page table entry) of COW marked using the RSW (reserved for software) bit
     - (ignored by memory management unit that translates virtual addresses to physical)
-    - 
+      
 - modify usertrap():
   - recognize/handle page faults
   - add new method to handle COW faults
