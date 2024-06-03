@@ -2,7 +2,7 @@
 Artifacts for COW group project for CSCI 4727
 
 
-                                  ===== COW =====
+===== COW =====
 - system-level optimization: uses less memory by keeping single copy of each unique page
 - point: avoid copying costs, reduce RAM use, reduces amount of time spent in fork() - challenges: how to avoid freeing memory until last process is finished (need more bookkeeping),
 mimic page faults
